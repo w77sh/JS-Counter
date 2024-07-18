@@ -1,0 +1,36 @@
+#btnContainer {
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif، apple-system ;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: #e7e7e770;
+    border-radius: 30px;
+    
+}
+.btn {
+   color : #777777;
+    margin: 1rem;
+    padding: 1rem;
+    border: 2px solid #000;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out , border-radius 0.4s ease-in-out , transform 0.3s ease-in-out;
+}
+.btn:hover {
+    background-color: #c9c9c9;
+    color: #575757;
+    border-radius: 20px;
+}
+.btn:active {
+    transform: scale(.9);
+   
+    background-color: #00000030;
+    color: #000000;
+    border-radius: 25px;
+
+}
+
